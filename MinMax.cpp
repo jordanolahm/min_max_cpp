@@ -7,7 +7,7 @@ MinMax::MinMax() : jogadorMax(1), jogadorMin(-1) {}
 
 MinMax::~MinMax() {}
 
- int MinMax::melhorMovimento(const std::vector<int>& tabuleiro) {
+int MinMax::melhorMovimento(const std::vector<int>& tabuleiro) {
     int melhorValor = INT_MIN;
     int melhorMov = -1;
 

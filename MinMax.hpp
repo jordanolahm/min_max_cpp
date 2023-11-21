@@ -6,7 +6,7 @@
 class MinMax {
 public:
     MinMax();
-
+     virtual ~MinMax();
     int melhorMovimento(const std::vector<int>& tabuleiro);
     int minMax(const std::vector<int>& tabuleiro, int profundidade, bool maximizando);
     bool tabuleiroCheio(const std::vector<int>& tabuleiro);
